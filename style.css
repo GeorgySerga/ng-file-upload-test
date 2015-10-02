@@ -1,0 +1,40 @@
+body {
+  margin:30px;
+}
+
+.progress {
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+.percents {
+  position:absolute;
+  right:0;
+  left:0;
+}
+
+.table-fixed tbody {
+  height: 200px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+  max-height: 40px;
+  min-height: 40px;
+}
+
+.dragover {
+  border: 1px dashed #49f;
+}
+
+.btn-danger {
+  float: right;
+  margin-top: -3px;
+}
