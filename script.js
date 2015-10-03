@@ -30,7 +30,7 @@ app.controller('MyCtrl', ['$scope', 'Upload', '$timeout', function ($scope, Uplo
     var index = $scope.allFiles.indexOf(files[0]);
     if (files && files.length) {
       upload = Upload.upload({
-        url: '',
+        url: 'https://angular-file-upload-cors-srv.appspot.com/upload',
         data: {
            file: files[0]
         }

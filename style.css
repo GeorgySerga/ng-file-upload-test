@@ -38,3 +38,13 @@ body {
   float: right;
   margin-top: -3px;
 }
+
+.help-block {
+  margin-bottom: 0;
+}
+
+.file-name {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
