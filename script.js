@@ -7,7 +7,7 @@ app.controller('MyCtrl', ['$scope', 'Upload', '$timeout', function ($scope, Uplo
   var isInProgress = false;
   var upload;
 
-  $scope.updateFileList = function(files, newFiles) {
+  $scope.updateFileList = function(newFiles) {
     if (newFiles) {
       $scope.files = $scope.files.concat(newFiles);
       $scope.filesToUpload += newFiles.length;

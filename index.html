@@ -16,10 +16,10 @@
     <br/>
     <div class='col-md-6 col-md-offset-3'>
           <div class='row'>
-              <div class='panel panel-default' ngf-drop='updateFileList($files, $newFiles);' ngf-drag-over-class='dragover' ngf-multiple='true' ngf-keep='true'>
+              <div class='panel panel-default' ngf-drop='updateFileList($newFiles);' ngf-drag-over-class='dragover' ngf-multiple='true' ngf-keep='true'>
                 <div class='panel-heading'>
                   <input type='button' class='btn btn-danger' ng-click='abort();' ng-if='filesToUpload' value='Abort'></input>
-                  <span class='help-block'>Attach files by dragging &amp; dropping or <a ngf-select='updateFileList($files);' href='#' ngf-multiple='true'>selecting them.</a></span>
+                  <span class='help-block'>Attach files by dragging &amp; dropping or <a ngf-select='updateFileList($newFiles);' href='#' ngf-multiple='true'>selecting them.</a></span>
                 </div>
                 <table class='table table-fixed'>
                   <tbody>
