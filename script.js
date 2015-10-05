@@ -56,7 +56,7 @@ app.controller('MyCtrl', ['$scope', 'Upload', '$timeout', function ($scope, Uplo
     }
   };
 
-  $scope.abortForOneFile = function(index) {
+  $scope.abortSingleFile = function(index) {
     if ($scope.files[index].progress) {
       upload.abort();
       $scope.files[index].status = false;

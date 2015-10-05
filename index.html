@@ -30,7 +30,7 @@
                           <div class='progress-bar' role='progressbar' aria-valuenow='{{f.progress}}' aria-valuemin='0' aria-valuemax='100' style='min-width: 2em; width: {{f.progress}}%'>{{f.progress + '%'}}</div>
                         </div>
                       </td>
-                      <td class='col-xs-1'><a href='#' ng-click='abortForOneFile($index);' ng-if='f.progress < 100'>X</a></td>
+                      <td class='col-xs-1'><a href='#' ng-click='abortSingleFile($index);' ng-if='f.progress < 100'>X</a></td>
                     </tr>
                   </tbody>
                 </table>
